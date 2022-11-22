@@ -1,0 +1,210 @@
+//====================================================================================================
+.footer {
+    
+}
+.footer__container {
+}
+.footer__top {
+    display: flex;
+    padding: 0px 135px 40px;
+    position: relative;
+    @media (max-width: em(1399)){
+        padding: 0px 30px 20px;
+    }
+    @media (max-width: em(1199)){
+          flex-wrap: wrap;
+    }
+    @media (max-width:$tablet){
+        padding: 0px;
+    }
+}
+.footer__column {
+}
+.column-small {
+    width: 291px;
+    margin: 0px 50px 0px 0px;
+    @media (max-width: em(1199)){
+        width: auto;
+        display: flex;
+        margin: 0px;
+    }
+    @media (max-width:$mobile){
+         flex-direction: column;
+         align-items:center; 
+         text-align: center;
+    }
+}
+.column-small__logo {
+    margin-bottom: rem(30);
+    @media (max-width: em(1199)){
+          margin-bottom: rem(0);
+    }
+    @media (max-width:$mobile){
+         margin-bottom: rem(20); 
+    }
+}
+.column-small__logo-image {
+    width: 291px;
+    height: 77px;
+}
+.column-small__text {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #7d7d7d;
+    @media (max-width: em(1199)){
+          margin: 0px 0px 0px 30px;
+    }
+    @media (max-width:$mobile){
+         margin: 0px; 
+    }
+}
+.column-big {
+    flex: 1 1;
+}
+.column-big__title {
+    font-size: 27px;
+    line-height: 77px;
+    color: #262626;
+    a {
+        text-decoration: underline;
+    }
+    margin-bottom: rem(30);
+    @media (max-width:$tablet){
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin: 30px 0px;
+    }
+}
+
+.column-big__row {
+    display: flex;
+    justify-content:space-between;
+    @media (max-width:$mobile){
+         flex-wrap: wrap; 
+         justify-content: space-around;
+         padding: 0px 10px;
+    }
+}
+.column-big__item {
+}
+.item {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #242424;
+    &:not(:last-child) {
+        max-width: 220px;
+    }
+    @media (max-width:$mobile){
+        &:last-child{
+            text-align: center;
+            margin-bottom: rem(20);
+        }
+    }
+    @media (max-width:$mobileSmall){
+        text-align: center;
+    }
+}
+.item__info {
+    margin-bottom: rem(20);
+}
+.item__link-blue {
+    color: #0085bf;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.item__link-black {
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.item__social {
+    white-space: nowrap;
+    margin: 25px 0px 0px 0px;
+    a:not(:last-child) {
+        margin: 0px 15px 0px 0px;
+        @media (max-width:$mobileSmall){
+             margin: 0px 5px 0px 0px; 
+        }
+    }@media (max-width:$mobileSmall){
+          white-space: normal;
+
+    }
+}
+.item__social-image {
+    height: 35px;
+    
+}
+.footer__up {
+    margin: 0px -60px 0px 50px;
+    @media (max-width:$pc){
+        margin: 0px -30px 0px 30px;
+    }
+    @media (max-width:$tablet){
+        margin: 0px -10px 0px 20px;
+    }
+    @media (max-width:$mobile){
+        a {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        
+       
+    }
+}
+.footer__bottom {
+    padding: 0px 135px 100px;
+    display: flex;
+    justify-content:space-between;
+    @media (max-width: em(1399)){
+        padding: 0px 30px 50px;
+    }
+    @media (max-width:$tablet){
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+}
+.footer__counters {
+    a {
+        &:not(:last-child) {
+            margin: 0px 15px 0px 0px;
+        }
+    }
+}
+.footer__nav {
+    font-size: 18px;
+    line-height: 32px;
+    color: #242424;
+    a {
+        text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+    }
+    @media (max-width:$tablet){
+        flex: 1 1 100%;
+        text-align: center;
+        margin: 0px 0px 15px 0px;
+    }
+    @media (max-width:$mobile){
+        display: flex;
+        justify-content: space-around; 
+        flex-wrap: wrap;
+    }
+}
+.footer__nav-link {
+    &:not(:last-child) {
+        margin: 0px 40px 0px 0px;
+    }
+    @media (max-width:$mobile){
+        &:not(:last-child) {
+            margin: 0px 0px 0px 0px;
+        }
+        padding: 0px 10px;
+    }
+}
+//====================================================================================================

@@ -1,0 +1,100 @@
+//====================================================================================================
+.vacancy__title {
+    margin-bottom: rem(0);
+}
+.vacancy__wrapper {
+    padding: 0px 135px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: rem(100);
+    @media (max-width: em(1279)){
+        padding: 0px 35px;
+    }
+    @media (max-width:$tablet){
+        padding: 0;
+        margin-bottom: rem(50);
+    }
+    position: relative;
+    &::after{
+        content:'';
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        background-color: #eeeeee;
+        @media (max-width:$tablet){
+            display: none;
+        }
+    }
+}
+.vacancy__item {
+    flex: 0 1 50%;
+    line-height: 1.2;
+    padding: 44px 30px 70px;
+    @media (max-width:$tablet){
+        flex: 1 1 100%;
+    }
+    @media (max-width:$mobile){
+        padding: 34px 30px 45px;
+    }
+    @media (max-width:$mobileSmall){
+        padding: 24px 0px 30px;
+    }
+}
+.vacancy__name {
+    font-weight: 700;
+    color: #069edb;
+    margin-bottom: rem(30);
+    @media (max-width:$mobile){
+         margin-bottom: rem(15); 
+    }
+}
+.vacancy__description {
+    margin-bottom: rem(30);
+    @media (max-width:$mobile){
+        margin-bottom: rem(15); 
+   }
+}
+.vacancy__item-title {
+    font-weight: 700;
+    margin-bottom: rem(30);
+    @media (max-width:$mobile){
+        margin-bottom: rem(15); 
+   }
+}
+.vacancy__info {
+    margin-bottom: rem(30);
+    p {
+        position: relative;
+        padding: 0px 0px 0px 10px;
+        &::before{
+            content:'';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            top: 10px;
+            left: 0;
+            background-color: #121212;
+            border-radius: 45%;
+        }
+    }
+    @media (max-width:$mobile){
+        margin-bottom: rem(15); 
+   }
+}
+.vacancy__button {
+    margin: 30px 0px 20px 0px;
+    @media (max-width:$mobile){
+        margin: 20px 0px 20px 0px;
+    }
+}
+.button-blue {
+}
+.vacancy__phone {
+}
+//====================================================================================================
+
+//====================================================================================================
+
+//====================================================================================================

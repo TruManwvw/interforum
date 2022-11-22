@@ -1,0 +1,187 @@
+//====================================================================================================
+.column-left__subscribe {
+    margin-bottom: rem(55);
+}
+//====================================================================================================
+//====================================================================================================
+.faq__wrapper {
+    padding: 0px 135px;
+    @media (max-width: em(1279)){
+       padding: 0px 35px;
+    }
+    @media (max-width:$tablet){
+     padding: 0px;
+    }
+}
+.faq__row {
+    display: flex;
+    @media (max-width:$mobile){
+         flex-direction: column-reverse;
+    }
+}
+.faq__column-left {
+    max-width: 340px;
+}
+.faq__column {
+    padding: 0px 0px 0px 50px;
+    @media (max-width:$tablet){
+        padding: 0px 0px 0px 25px;
+    }
+    @media (max-width:$mobile){
+         padding: 0; 
+    }
+}
+.faq__column-title {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #423f4f;
+    margin-bottom: rem(25);
+    &:not(:first-child) {
+        margin-top: rem(40);
+    }
+    @media (max-width:$mobile){
+         text-align: center; 
+    }
+}
+.faq-spollers {
+    margin-bottom: rem(15);
+}
+.spollers__item {
+}
+.faq-spollers__title {
+    padding: 12px 50px 12px 15px;
+    background-color: #eef1f4;
+    width: 100%;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #121212;
+	cursor: default;
+	text-align: left;
+	border-radius: rem(5);
+	position: relative;
+	._spoller-init & {
+		cursor: pointer;
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			right: 20px;
+			top: 50%;
+			background-color: #5f6060;
+			height: 2px;
+			width: 15px;
+			transition: transform 0.5s ease 0s;
+			@media (max-width:$tablet){
+				right: 10px;
+			}
+		}
+		&::before {
+			transform: translate(-75%, -50%) rotate(40deg);
+		}
+		&::after {
+			transform: translate(0, -50%) rotate(-40deg);
+		}
+		&._spoller-active {
+			&::before {
+				transform: translateX(-75%) rotate(-40deg);
+			}
+			&::after {
+				transform: rotate(40deg);
+			}
+		}
+	}
+}
+.faq-spollers__body {
+    background-color: #eef1f4;
+    padding: 20px 24px 20px 15px;
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+}
+//====================================================================================================
+.faq__conferences {
+}
+//====================================================================================================
+
+
+//faq-partners====================================================================================================
+.faq__column-content {
+}
+.faq-content {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #363636;
+    text-align: justify;
+    >p {
+        margin-bottom: rem(30);
+        @media (max-width:$tablet){
+            margin-bottom: rem(20);
+        }
+    }
+    a {
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.faq-content__list {
+    padding: 0px 0px 20px 20px;
+    li {
+        position: relative;
+        margin: 0px 0px 0px 20px;
+        &::before{
+            content:'';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            top: 6px;
+            left: -20px;
+            background-color: #363636;
+        }
+    }
+    @media (max-width:$mobileSmall){
+        padding: 0px 0px 20px 0px;
+    }
+}
+.faq-content__list-title {
+    font-weight: 700;
+    padding: 0px 0px 30px 20px;
+    @media (max-width:$tablet){
+        padding: 0px 0px 20px 20px;
+    }
+    @media (max-width:$mobileSmall){
+        padding: 0px 0px 20px 0px; 
+    }
+}
+//====================================================================================================
+.faq-content__connection {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.faq-content__connection-title {
+    text-align: center;
+    margin: 80px 0px;
+    max-width: 500px;
+    @media (max-width:$tablet){
+        margin: 40px 0px;
+    }
+}
+.faq-content__connection-item {
+    @media (max-width:$tablet){
+        text-align: center;
+    }
+}
+.contact-item {
+}
+.contact-item__image {
+}
+.contact-item__name {
+}
+.contact-item__name-blue {
+}
+.contact-item__info {
+}

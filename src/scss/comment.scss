@@ -1,0 +1,121 @@
+//====================================================================================================
+.comment__wrapper {
+    padding: 0px 135px;
+    @media (max-width: em(1279)){
+		padding: 0px 35px;
+	}
+    @media (max-width:$tablet){
+        padding: 0;
+    }
+}
+//====================================================================================================
+.comment-spollers__title {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #423f4f;
+    text-transform: uppercase;
+    background-color: #e2f4fe;
+    padding: 25px 15px 22px;
+    span {
+        display: block;
+    }
+    @media (max-width: em(1399)){
+		font-size: 25px;
+	}
+    @media (max-width:$tablet){
+        font-size: 25px;
+    }
+    @media (max-width:$mobile){
+        font-size: 20px;
+    }
+}
+.spollers__title {
+    
+}
+.spollers__subtitle {
+    text-transform: none;
+    font-weight: 400;
+}
+.spollers__body-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 35px 0px;
+}
+.spollers__body-item {
+    flex: 0 1 50%;
+    margin: 35px 0px;
+    padding: 0px 15px;
+    @media (max-width:$mobile){
+         flex: 1 1 100%; 
+         margin: 25px 0px;
+    }
+}
+.spollers__body-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #121212;
+}
+.spollers__body-subtitle {
+    font-weight: 400;
+    margin: 0px 0px 25px 0px;
+}
+.spollers__body-content {
+    font-weight: 400;
+    text-align: justify;
+}
+.spollers__body-button {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 286px;
+    height: 48px;
+    background-color: #0085bf;
+    border-radius: 7px;
+    transition: all 0.3s ease 0s;
+    margin-bottom: rem(80);
+    &:hover{
+        background-color: #00587e;
+    }
+    @media (max-width:$tablet){
+        margin-bottom: rem(60);
+    }
+    @media (max-width:$mobile){
+         margin: 0px auto; 
+    }
+}
+//====================================================================================================
+.comment__conferences {
+}
+//====================================================================================================
+.comment__reviews {
+    margin-bottom: rem(60);
+}
+.comment__reviews-title {
+    font-size: 32px;
+    line-height: 32px;
+    color: #242424;
+    margin-bottom: rem(55);
+    @media (max-width:$mobileSmall){
+         margin-bottom: rem(30); 
+    }
+}
+.comment__reviews-content {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #121212;
+    text-align: justify;
+    margin-bottom: rem(30);
+    @media (max-width:$mobileSmall){
+         margin-bottom: rem(20); 
+    }
+}
+//====================================================================================================
+
+//====================================================================================================
