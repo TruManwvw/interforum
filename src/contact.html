@@ -8,6 +8,7 @@
 	<div class="wrapper">
 		@@include('html/_header.htm',{})
 		<main class="page contact">
+         <!--contact__container title-->
 			<div class="contact__container">
 				<div class="contact__title title">
 					<h1>Контакты</h1>
@@ -283,7 +284,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="contact__map">
+				</div>
+			</div>
+         <!--contact__container map-->
+         <div class="contact__container">
+            <div class="contact__wrapper">
+               <div class="contact__map">
 						<div class="contact__map-text map">
 							<div class="map__title">
 								<h2>Контакты офиса</h2>
@@ -349,7 +355,12 @@
 									></iframe></div>
 						</div>
 					</div>
-					<div class="contact__conferences conferences">
+            </div>
+         </div>
+         <!--contact__container conferences-->
+         <div class="contact__container">
+            <div class="contact__wrapper">
+               <div class="contact__conferences conferences">
 						<div class="conferences__item">
 							<a href="#" class="conferences__item-link">
 								<img class="conferences__item-image" src="@img/conferences/calendar.svg" alt="">
@@ -385,9 +396,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-
+            </div>
+         </div>
 			<div class="contact__download plan-download">
 				<div class="plan-download__container">
 					<div class="plan-download__wrapper">

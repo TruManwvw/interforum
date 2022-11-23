@@ -8,6 +8,7 @@
 	<div class="wrapper">
 		@@include('html/_header.htm',{})
 		<main class="page comment">
+         <!--comment__container--title-->
 			<div class="comment__container">
 				<div class="comment__title title">
 					<h1>Отзывы участников наших конференций</h1>
@@ -16,7 +17,10 @@
 						<p>Уверены это поможет Вам для принятия решения</p>
 						<p>тут нужно написать текст</p>
 					</div>
-				</div>
+            </div>
+         </div>
+         <!--comment__container--choice-->
+         <div class="comment__container">
 				<div class="comment__wrapper">
 					<div class="comment__choice choice">
 						<div class="comment__choice-item choice-item checkbox">
@@ -455,56 +459,49 @@
 							</div>
 						</div>
 					</div>
-					<div class="comment__conferences conferences">
-						<div class="conferences__item">
-							<a href="#" class="conferences__item-link">
-								<img class="conferences__item-image" src="@img/conferences/calendar.svg" alt="">
-							</a>
-							<div class="conferences__item-title">
-								<p>Календарь конференций</p>
-							</div>
-							<div class="conferences__item-subtitle">
-								<a href="#">Посмотреть</a> все актуальные конференции компании InterForum на 2022 — 2023 год
-							</div>
-						</div>
-						<div class="conferences__item">
-							<a href="#" class="conferences__item-link">
-								<img class="conferences__item-image" src="@img/conferences/pdf.svg" alt="">
-							</a>
-							<div class="conferences__item-title">
-								<p>Скачать план конференций</p>
-							</div>
-							<div class="conferences__item-subtitle">
-								<a href="#">Скачайте</a> актуальный план предстоящих конференций в формате PDF
-							</div>
-						</div>
-						<div class="conferences__item">
-							<a href="#" class="conferences__item-link">
-								<img class="conferences__item-image" src="@img/conferences/lamp.svg" alt="">
-							</a>
-							<div class="conferences__item-title">
-								<p>Спонсорство конференций</p>
-							</div>
-							<div class="conferences__item-subtitle">
-								<a href="#">Оптимальный партнерский</a> пакет, соответствующий целям Вашей компании
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
-			<div class="contact__download plan-download">
-				<div class="plan-download__container">
-					<div class="plan-download__wrapper">
-						<div class="plan-download__title">
-							<p>Подписаться на новости конференций</p>
-						</div>
-						<div class="plan-download__subtitle">
-							<p>Подпишитесь на новостную рассылку, чтобы получать по электронной почте самую свежую информацию о специальных ценовых предложениях и конференциях компании InterForum</p>
-						</div>
-						<button type="submit" class="plan-download__button button-blue">подписаться на новости</button>
-					</div>
-				</div>
-			</div>
+         <!--comment__container--conferences-->
+         <div class="comment__container">
+            <div class="comment__wrapper">
+               <div class="comment__conferences conferences">
+                  <div class="conferences__item">
+                     <a href="#" class="conferences__item-link">
+                        <img class="conferences__item-image" src="@img/conferences/calendar.svg" alt="">
+                     </a>
+                     <div class="conferences__item-title">
+                        <p>Календарь конференций</p>
+                     </div>
+                     <div class="conferences__item-subtitle">
+                        <a href="#">Посмотреть</a> все актуальные конференции компании InterForum на 2022 — 2023 год
+                     </div>
+                  </div>
+                  <div class="conferences__item">
+                     <a href="#" class="conferences__item-link">
+                        <img class="conferences__item-image" src="@img/conferences/pdf.svg" alt="">
+                     </a>
+                     <div class="conferences__item-title">
+                        <p>Скачать план конференций</p>
+                     </div>
+                     <div class="conferences__item-subtitle">
+                        <a href="#">Скачайте</a> актуальный план предстоящих конференций в формате PDF
+                     </div>
+                  </div>
+                  <div class="conferences__item">
+                     <a href="#" class="conferences__item-link">
+                        <img class="conferences__item-image" src="@img/conferences/lamp.svg" alt="">
+                     </a>
+                     <div class="conferences__item-title">
+                        <p>Спонсорство конференций</p>
+                     </div>
+                     <div class="conferences__item-subtitle">
+                        <a href="#">Оптимальный партнерский</a> пакет, соответствующий целям Вашей компании
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--comment__container--reviews-->
 			<div class="comment__container">
 				<div class="comment__wrapper">
 					<div class="comment__reviews">
@@ -533,6 +530,19 @@
 								или по контактному телефону.
 							</p>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact__download plan-download">
+				<div class="plan-download__container">
+					<div class="plan-download__wrapper">
+						<div class="plan-download__title">
+							<p>Подписаться на новости конференций</p>
+						</div>
+						<div class="plan-download__subtitle">
+							<p>Подпишитесь на новостную рассылку, чтобы получать по электронной почте самую свежую информацию о специальных ценовых предложениях и конференциях компании InterForum</p>
+						</div>
+						<button type="submit" class="plan-download__button button-blue">подписаться на новости</button>
 					</div>
 				</div>
 			</div>
