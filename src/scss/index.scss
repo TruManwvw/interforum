@@ -1,6 +1,6 @@
 //====================================================================================================
 .main__wrapper {
-    
+    margin-bottom: 50px;
 }
 .main__title {
     margin-bottom: rem(20);
@@ -63,6 +63,9 @@ margin: 0px 0px 13px 0px;
     @media (max-width:$tablet){
         padding: 0;
     }
+}
+.main-content--text {
+   margin: 5rem 0;
 }
 .choice {
 }

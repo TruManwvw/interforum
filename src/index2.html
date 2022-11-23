@@ -599,7 +599,7 @@
 				</div>
 
 			</div>
-			<div class="main__container">
+         <div class="main__container">
 				<div class="main__reviews reviews">
 					<div class="past__title reviews__title">
 						Лица конференций
@@ -716,6 +716,8 @@
 						<button type="button" class="swiper-button-next past__swiper-button-next"></button>
 					</div>
 				</div>
+         </div>
+         <div class="main__container">
 				<div class="main__reviews reviews">
 					<div class="reviews__title">
 						Отзывы участников
@@ -798,7 +800,6 @@
 					</a>
 				</div>
 			</div>
-		
 			<div class="gallery">
 				<div class="gallery__bg"></div>
 				<!-- Оболочка слайдера -->
@@ -924,34 +925,7 @@
 					<div class="swiper-scrollbar"></div>
 				</div>
 			</div>
-			<div class="main__container">
-				<div class="main__reviews reviews">
-					<div class="past__title reviews__title">
-						Среди участников наших конференций
-					</div>
-					<!-- Оболочка слайдера -->
-					<div class="past__slider swiper-participants">
-						<!-- Двигающееся часть слайдера -->
-						<div class="swiper-participants__wrapper swiper-wrapper">
-							<!-- Слайд -->
-							<div class="swiper-participants__slide wiper-face__slide swiper-slide">
-								<img src="@img/main/slider3/1.jpg" alt="">
-							</div>
-							<!-- Слайд -->
-							<div class="swiper-participants__slide wiper-face__slide swiper-slide">
-								<img src="@img/main/slider3/1.jpg" alt="">
-							</div>
-							<!-- Слайд -->
-							<div class="swiper-participants__slide wiper-face__slide swiper-slide">
-								<img src="@img/main/slider3/1.jpg" alt="">
-							</div>
-						</div>
-						<div class="swiper-pagination"></div>
-						<!-- навигация (влево/вправо) -->
-						<button type="button" class="swiper-participants__button-prev swiper-button-prev"></button>
-						<button type="button" class="swiper-participants__button-next swiper-button-next"></button>
-					</div>
-				</div>
+			<div class="main__container main__container--conferences">
 				<div class="main__conferences conferences">
 					<div class="conferences__item">
 						<a href="#" class="conferences__item-link">
@@ -987,7 +961,38 @@
 						</div>
 					</div>
 				</div>
-				<div class="main__content">
+         </div>
+         <div class="main__container main__container--reviews">
+            <div class="main__reviews reviews">
+					<div class="past__title reviews__title">
+						Среди участников наших конференций
+					</div>
+					<!-- Оболочка слайдера -->
+					<div class="past__slider swiper-participants">
+						<!-- Двигающееся часть слайдера -->
+						<div class="swiper-participants__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="swiper-participants__slide wiper-face__slide swiper-slide">
+								<img src="@img/main/slider3/1.jpg" alt="">
+							</div>
+							<!-- Слайд -->
+							<div class="swiper-participants__slide wiper-face__slide swiper-slide">
+								<img src="@img/main/slider3/1.jpg" alt="">
+							</div>
+							<!-- Слайд -->
+							<div class="swiper-participants__slide wiper-face__slide swiper-slide">
+								<img src="@img/main/slider3/1.jpg" alt="">
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+						<!-- навигация (влево/вправо) -->
+						<button type="button" class="swiper-participants__button-prev swiper-button-prev"></button>
+						<button type="button" class="swiper-participants__button-next swiper-button-next"></button>
+					</div>
+				</div>
+         </div>
+         <div class="main__container main__container--main-text">
+				<div class="main__content main-content--text">
 					<div class="main__content-title past__content-title">
 						Интер Форум - бизнес конференции и форумы в Москве
 					</div>
@@ -1009,7 +1014,6 @@
 							телефону.</p>
 					</div>
 				</div>
-
 			</div>
 		</main>
 		@@include('html/_footer.htm',{})
